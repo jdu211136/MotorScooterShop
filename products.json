@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "ScooterName",
+    "price": 1200,
+    "currency": "product_p1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "ScooterName",
+    "price": 1200,
+    "currency": "product_p2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ScooterName",
+    "price": 1200,
+    "currency": "product_p3.jpg"
+  }
+]
