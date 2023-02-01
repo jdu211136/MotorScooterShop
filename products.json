@@ -1,20 +1,23 @@
 [
   {
     "id": 1,
-    "name": "ScooterName",
-    "price": 1200,
-    "currency": "product_p1.jpg"
+    "name": "Dualtron Mini",
+    "price": 1499,
+    "image": "product1.jpeg",
+    "currency": "$"
   },
   {
     "id": 2,
     "name": "ScooterName",
     "price": 1200,
-    "currency": "product_p2.jpg"
+    "image": "product_p2.jpg",
+    "currency": "$"
   },
   {
     "id": 3,
     "name": "ScooterName",
     "price": 1200,
-    "currency": "product_p3.jpg"
+    "image": "product_p3.jpg",
+    "currency": "$"
   }
 ]
