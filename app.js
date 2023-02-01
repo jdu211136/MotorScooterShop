@@ -1,12 +1,20 @@
 import products from "./products.json" assert { type: "json" };
-const content = document.querySelector("#content");
+const content = document.querySelector(".left-bar");
 
 for (let i = 0; i < products.length; i++) {
-  const product = document.createElement("div");
-  product.innerHTML = `
-    <img src="images/${products[i].image}"><br>
-    Name: ${products[i].name}<br>
-    Price: ${products[i].currency}${products[i].price}<br>
-    `;
-  content.append(product);
+  let product = `
+    <div class = "right">
+      <div class= "cart">
+          <div><img class= "image" src="images/${products[i].image}"></div>
+      </div>
+      <div class="text">
+      Name: ${products[i].name}<br>
+      Price: ${products[i].currency}${products[i].price}<br>
+      </div>
+      <div class="button">
+      <button>Add to cart</button>
+      </div>
+    </div>
+  `;
+  content.innerHTML +=product;
 }

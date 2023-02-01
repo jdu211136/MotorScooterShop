@@ -10,14 +10,37 @@
     "id": 2,
     "name": "ScooterName",
     "price": 1200,
-    "image": "product_p2.jpg",
+    "image": "MotorScooter.jpeg",
     "currency": "$"
   },
   {
     "id": 3,
     "name": "ScooterName",
     "price": 1200,
-    "image": "product_p3.jpg",
+    "image": "p.jpeg",
+    "currency": "$"
+  },
+  {
+    "id": 4,
+    "name": "ScooterName",
+    "price": 1200,
+    "image": "MotorScooter2.2.jpeg",
+    "currency": "$"
+  },
+  {
+    "id": 5,
+    "name": "ScooterName",
+    "price": 1200,
+    "image": "MotorScooter3.1.jpeg",
+    "currency": "$"
+  },
+  {
+    "id": 6,
+    "name": "ScooterName",
+    "price": 1200,
+    "image": "MotorScooter4.1.jpeg",
     "currency": "$"
   }
+  
 ]
+
